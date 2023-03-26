@@ -20,6 +20,7 @@ public class StringUtils {
         if (strBag.charAt(i) != ',') {
           number += strBag.charAt(i);
         }
+
         if (strBag.charAt(i) == ',' || i == strBag.length() - 1) {
           bag[j] = Double.parseDouble(number);
           number = "";
