@@ -5,13 +5,13 @@ public class Main {
     Scanner input = new Scanner(System.in);
 
     System.out.print("Insert the values of first bag, separated with comma = ");
-    String firstStrBag = input.nextLine();
+    String strBag1 = input.nextLine();
 
     System.out.print("Insert the values of second bag, separated with comma = ");
-    String secondStrBag = input.nextLine();
+    String strBag2 = input.nextLine();
 
-    BagOfDoubles bag1 = new BagOfDoubles(StringUtils.createArray(firstStrBag));
-    BagOfDoubles bag2 = new BagOfDoubles(StringUtils.createArray(secondStrBag));
+    BagOfDoubles bag1 = new BagOfDoubles(StringUtils.createArray(strBag1));
+    BagOfDoubles bag2 = new BagOfDoubles(StringUtils.createArray(strBag2));
 
     System.out.println("Values of bag1 : " + bag1);
     System.out.println("Values of bag2 : " + bag2);
